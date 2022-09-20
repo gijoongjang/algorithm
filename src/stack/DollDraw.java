@@ -12,8 +12,8 @@ public class DollDraw {
         for(int pos : moves) {
             for(int i = 0; i < board.length; i++) {
                 int doll = board[i][pos-1];
-                board[i][pos-1] = 0;
                 if(doll == 0) continue;
+                board[i][pos-1] = 0;
                 if(stack.isEmpty()) {
                     stack.push(doll);
                 } else {
