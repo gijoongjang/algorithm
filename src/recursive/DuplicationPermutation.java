@@ -11,8 +11,8 @@ public class DuplicationPermutation {
         if(level == m) {
             for(int x : pm) {
                 System.out.print(x + " ");
-                System.out.println();
             }
+            System.out.println();
         } else {
             for(int i = 1; i <= n; i++) {
                 pm[level] = i;
